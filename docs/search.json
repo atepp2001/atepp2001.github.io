@@ -1,45 +1,31 @@
 [
   {
-    "objectID": "projects/index.html",
-    "href": "projects/index.html",
+    "objectID": "projects/index.html#m6a-signaling-in-synaptic-function-and-alzheimers-disease",
+    "href": "projects/index.html#m6a-signaling-in-synaptic-function-and-alzheimers-disease",
     "title": "Projects",
-    "section": "",
-    "text": "arXiv Preprint | Code\nOver the centuries, I have devoted countless hours to deciphering and translating the ancient scripts and dialects of the various peoples of Middle-earth. My goal is to gain a deeper understanding of the cultures and histories of these peoples by studying their languages. Currently, I am working on a monograph that explores the linguistic roots of the Elvish languages. Through extensive research and analysis, I hope to shed light on the connections between the different dialects of Elvish and their origins. This project has been particularly challenging, as Elvish is a complex and nuanced language, but I am determined to see it through to completion."
-  },
-  {
-    "objectID": "projects/index.html#the-languages-of-middle-earth",
-    "href": "projects/index.html#the-languages-of-middle-earth",
-    "title": "Projects",
-    "section": "",
-    "text": "arXiv Preprint | Code\nOver the centuries, I have devoted countless hours to deciphering and translating the ancient scripts and dialects of the various peoples of Middle-earth. My goal is to gain a deeper understanding of the cultures and histories of these peoples by studying their languages. Currently, I am working on a monograph that explores the linguistic roots of the Elvish languages. Through extensive research and analysis, I hope to shed light on the connections between the different dialects of Elvish and their origins. This project has been particularly challenging, as Elvish is a complex and nuanced language, but I am determined to see it through to completion."
-  },
-  {
-    "objectID": "projects/index.html#the-history-of-the-war-of-the-ring",
-    "href": "projects/index.html#the-history-of-the-war-of-the-ring",
-    "title": "Projects",
-    "section": "The History of the War of the Ring",
-    "text": "The History of the War of the Ring\n\narXiv Preprint | Code\nI am creating a comprehensive and detailed history of the conflict that goes beyond the surface-level events. By gathering information from a variety of sources, including my own memories, written accounts, and oral histories, I hope to shed new light on this important period in Middle-earth’s history and provide valuable insights into the motivations and actions of the various players involved.\n\nView the tutorial for this template (+ download link)"
+    "section": "m6A Signaling in Synaptic Function and Alzheimer’s Disease",
+    "text": "m6A Signaling in Synaptic Function and Alzheimer’s Disease\nAlzheimer’s disease (AD) is the most prevalent form of dementia, affecting 30 million people worldwide, yet treatment options remain limited. A key pathological feature, synaptic dysfunction strongly correlates with cognitive dysfunction and has been linked to proximity to amyloid- plaques, another pathological hallmark. A crucial component of proper synaptic function is mRNA metabolism, specifically, the stabilization, localization, and translation of transcripts producing proteins for synaptic function. N6-methyladenosine (m6A) is a post-transcriptional methylation of adenosine residues in RNA and is a key mediator of mRNA metabolism including mRNA splicing, nuclear export, stability, and translation . m6A RNA methylation is enriched in brain tissue and is dynamically regulated: it is added by methyltransferases such Mettl3 and Mettl14 (writers), removed by demethylases such as fat-mass-and-obesity related protein (FTO, an eraser), and recognized by a variety of m6A-bindng proteins (readers). Disruption of m6A in mice leads to synaptic dysfunction and memory impairment. Notably, Mettl3 and Mettl14 protein levels are reduced in the neurons of AD patients. However, little is known about how the disruption of m6A RNA modifications contributes to synaptic dysfunction in Alzheimer’s disease. This has motivated me to make the role of m6A downregulation in synaptic dysfunction in Alzheimer’s disease the focus of my PhD thesis. Stay tuned for updates of presentations, posters, and papers!"
   },
   {
     "objectID": "experience/index.html",
     "href": "experience/index.html",
     "title": "Experience",
     "section": "",
-    "text": "Ph.D. in Neuroscience from Case Western Reserve University, School of Medicine Began July 2023, anticipated graduation July 2028 Current GPA: 4.0 Current Status: PhD Student, anticipated to qualify Spring 2025 PI: Dr. Xiongwei Zhu, Department of Pathology."
+    "text": "Ph.D. in Neuroscience from Case Western Reserve University, School of Medicine\nBegan July 2023, anticipated graduation July 2028\nCurrent GPA: 4.0\nCurrent Status: PhD Student, anticipated to qualify Spring 2025\nPI: Dr. Xiongwei Zhu, Department of Pathology."
   },
   {
     "objectID": "experience/index.html#current-education",
     "href": "experience/index.html#current-education",
     "title": "Experience",
     "section": "",
-    "text": "Ph.D. in Neuroscience from Case Western Reserve University, School of Medicine Began July 2023, anticipated graduation July 2028 Current GPA: 4.0 Current Status: PhD Student, anticipated to qualify Spring 2025 PI: Dr. Xiongwei Zhu, Department of Pathology."
+    "text": "Ph.D. in Neuroscience from Case Western Reserve University, School of Medicine\nBegan July 2023, anticipated graduation July 2028\nCurrent GPA: 4.0\nCurrent Status: PhD Student, anticipated to qualify Spring 2025\nPI: Dr. Xiongwei Zhu, Department of Pathology."
   },
   {
     "objectID": "experience/index.html#previous-education",
     "href": "experience/index.html#previous-education",
     "title": "Experience",
     "section": "Previous Education",
-    "text": "Previous Education\n\n\n\n\n\n\n\n\n\n\nBachelor’s of Science in Biochemistry from Hillsdale College Began August 2019, graduated  summa cum laude in May 2023"
+    "text": "Previous Education\n\n\n\n\n\n\n\n\n\n\nBachelor’s of Science in Biochemistry from Hillsdale College\nBegan August 2019, graduated  summa cum laude in May 2023"
   },
   {
     "objectID": "cv/index.html",
