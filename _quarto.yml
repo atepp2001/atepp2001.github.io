@@ -6,12 +6,12 @@ website:
   description: "Alex is a Neuroscience PhD Student at Case Wesetern Reserve University"   # A brief slogan (optional)
   image: img/Epp_Alex_headshot_2023.jpg
   
-  favicon: img/favicon.png
+  favicon: img/m6A.png
   
   # start of the navigation bar at the top of the website
   navbar:
     pinned: true
-    logo: /img/logo.png
+    logo: /img/m6A.jpg
     
     # your sub-pages
     left:
