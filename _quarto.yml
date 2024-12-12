@@ -17,10 +17,15 @@ website:
     left:
       - text: "Projects"
         href: projects/index.qmd
+      - text: "Dashboard"
+        href: ld-dashboard-main/dashboard.qmd
+     # - text: "Blog"
+     #   href: blog/blog.qmd
       - text: "Experience"
         href: experience/index.qmd
       - text: "CV"
         href: cv/index.qmd
+      
     
     # your social media handles
     right:
