@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Insurance and Diabetes Dashboard – Alex Epp</title>
+<title>blog – Alex Epp</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -39,14 +39,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<script src="../site_libs/quarto-dashboard/quarto-dashboard.js"></script>
-<script src="../site_libs/quarto-dashboard/stickythead.js"></script>
-<script src="../site_libs/quarto-dashboard/datatables.min.js" kdttablesentinel="true"></script>
-<script src="../site_libs/quarto-dashboard/pdfmake.min.js" kdttablesentinel="true"></script>
-<script src="../site_libs/quarto-dashboard/vfs_fonts.js" kdttablesentinel="true"></script>
-<script src="../site_libs/quarto-dashboard/web-components.js" type="module"></script>
-<script src="../site_libs/quarto-dashboard/components.js"></script>
-<link href="../site_libs/quarto-dashboard/datatables.min.css" rel="stylesheet" kdttablesentinel="true">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -77,8 +69,7 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="quarto-dashboard nav-fixed dashboard-fill dashboard-sidebar fullcontent">
-
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -103,11 +94,11 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../dashboard-main/dashboard.html" aria-current="page"> 
+    <a class="nav-link" href="../dashboard-main/dashboard.html"> 
 <span class="menu-text">Dashboard</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../blog/blog.html"> 
+    <a class="nav-link active" href="../blog/blog.html" aria-current="page"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
@@ -136,264 +127,149 @@ ul.task-list li input[type="checkbox"] {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
-<header id="quarto-dashboard-header">
-<nav class="navbar navbar-expand-md slim" data-bs-theme="dark">
-  <div class="navbar-container container-fluid">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-controls="dashboard-collapse" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>    
-
-
-    <div class="navbar-brand-container">       
-
-      <div class="navbar-title">
-        <div class="navbar-title-text"><a href="#">Insurance and Diabetes Dashboard</a></div>
-        
-        
-      </div>
-    </div>
-<div id="dashboard-collapse" class="navbar-collapse collapse"><ul class="navbar-nav navbar-nav-scroll me-auto" role="tablist"><li class="nav-item" role="presentation"><a id="tab-prevalence-and-proportions" class="nav-link active" data-bs-toggle="tab" role="tab" data-bs-target="#prevalence-and-proportions" data-scrolling="false" href="#prevalence-and-proportions" aria-controls="prevalence-and-proportions" aria-selected="true"><span class="nav-link-text">Prevalence and Proportions</span></a></li><li class="nav-item" role="presentation"><a id="tab-uninsurance-and-diabetes-risk-factors" class="nav-link" data-bs-toggle="tab" role="tab" data-bs-target="#uninsurance-and-diabetes-risk-factors" data-scrolling="false" href="#uninsurance-and-diabetes-risk-factors" aria-controls="uninsurance-and-diabetes-risk-factors" aria-selected="false"><span class="nav-link-text">Uninsurance and Diabetes Risk Factors</span></a></li></ul></div></div>
-</nav>
-</header></header>
+</header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-layout-custom page-navbar quarto-dashboard-content bslib-gap-spacing html-fill-container bslib-page-fill quarto-dashboard-pages dashboard-sidebar-container">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
+    
 <!-- main -->
+<main class="content" id="quarto-document-content">
 
-<div class="bslib-sidebar-layout html-fill-item html-fill-container" data-bslib-sidebar-open="desktop" data-bslib-sidebar-init="true" data-bslib-sidebar-border="false" data-bslib-sidebar-border-radius="false"><div class="main html-fill-container html-fill-item"><div class="sidebar-content html-fill-item html-fill-container">
-<div class="tab-content bslib-grid html-fill-item html-fill-container" style="display: grid; grid-template-columns: minmax(3em, 1fr);
-grid-auto-rows: minmax(0, 1fr);">
-<div id="prevalence-and-proportions" class="dashboard-page tab-pane show active html-fill-item html-fill-container" data-orientation="rows" aria-labelledby="tab-prevalence-and-proportions">
-<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, 20fr) minmax(3em, 40fr) minmax(3em, 40fr); grid-auto-columns: minmax(0, 1fr);">
-<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 1fr) minmax(3em, 1fr);
-grid-auto-rows: minmax(0, 1fr);">
-<div class="card valuebox cell html-fill-item html-fill-container bslib-card bslib-value-box bg-primary" data-bslib-card-init="" data-require-bs-caller="card()">
-<div class="card-body html-fill-item html-fill-container">
-<div class="html-fill-item html-fill-container value-box-grid">
-<div class="value-box-area">
-<p class="value-box-title">
-Prevalence of Diabetes Mellitus (%)
-</p>
-<p class="value-box-value">
-15.54
-</p>
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">blog</h1>
 </div>
-</div>
-</div>
-<script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div><div class="card valuebox cell html-fill-item html-fill-container bslib-card bslib-value-box bg-secondary" data-bslib-card-init="" data-require-bs-caller="card()">
-<div class="card-body html-fill-item html-fill-container">
-<div class="html-fill-item html-fill-container value-box-grid">
-<div class="value-box-area">
-<p class="value-box-title">
-Prevalence of Uninsurance(%)
-</p>
-<p class="value-box-value">
-16.94
-</p>
-</div>
-</div>
-</div>
-<script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
-</div>
-<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 50fr) minmax(3em, 50fr);
-grid-auto-rows: minmax(0, 1fr);">
-<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, 1fr); grid-auto-columns: minmax(0, 1fr);">
-<div class="card cell html-fill-item html-fill-container bslib-card" data-title="Age-Specific Prevalence of Diabetes" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
-<div class="card-header"><div class="card-title html-fill-item html-fill-container">Age-Specific Prevalence of Diabetes</div></div>
-<div class="card-body html-fill-item html-fill-container">
-<div class="cell-output-display html-fill-item html-fill-container">
-<img src="dashboard_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid quarto-dashboard-img-contain">
-</div>
-</div>
-<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
-    <template>Expand</template>
-    <span class="bslib-full-screen-enter badge rounded-pill">
-        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
-    </span>
-</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
-</div><div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, 1fr); grid-auto-columns: minmax(0, 1fr);">
-<div class="card cell html-fill-item html-fill-container bslib-card" data-title="Age-Specific Prevalence of Uninsurance" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
-<div class="card-header"><div class="card-title html-fill-item html-fill-container">Age-Specific Prevalence of Uninsurance</div></div>
-<div class="card-body html-fill-item html-fill-container">
-<div class="cell-output-display html-fill-item html-fill-container">
-<img src="dashboard_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid quarto-dashboard-img-contain">
-</div>
-</div>
-<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
-    <template>Expand</template>
-    <span class="bslib-full-screen-enter badge rounded-pill">
-        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
-    </span>
-</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
-</div>
-</div>
-<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 1fr) minmax(3em, 1fr);
-grid-auto-rows: minmax(0, 1fr);">
-<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, 1fr); grid-auto-columns: minmax(0, 1fr);">
-<div class="card cell html-fill-item html-fill-container bslib-card" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
-<div class="card-body html-fill-item html-fill-container">
-<div class="cell-output-display html-fill-item html-fill-container">
-<table class="caption-top table table-sm table-striped small">
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="building-the-website" class="level1">
+<h1>Building the website</h1>
+<p>I built this website by piggybacking off the given I templates and changing as little as possible so that I would not accidentally make a mistake. Specifically, I followed Marvin Schmitt’s template to get the initial website up and running. Then, for the dashboard, I followed the hospital birth template. I like the colors they chose so I kept them as most of my comparisons were between two of the same groups. I did change to some complimentary but contrasting colors for the one other comparison.</p>
+</section>
+<section id="central-hypothesis" class="level1">
+<h1>Central Hypothesis</h1>
+<p>My central hypothesis in this study is that in young adults (aged 21-39) a lack of insurance impedes access to healthcare and increase the risk for early type 2 diabetes. To test this hypothesis, I am using data gathered from NHANES during the years of 2017-March 2020 (the pre-pandemic years).</p>
+<section id="data-codebook" class="level2">
+<h2 class="anchored" data-anchor-id="data-codebook">Data Codebook</h2>
+<p>I ingested and cleaned the data into two different data sets for testing – one including all adults, diabetics status, and insurance status, and another including just adults aged 21-39, insurance status, healthcare utilization, body mass index, blood pressure, and glycosylated hemoglobin.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 21%">
+<col style="width: 12%">
+<col style="width: 21%">
+<col style="width: 27%">
+<col style="width: 17%">
+</colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;">Insurance</th>
-<th style="text-align: right;">Count</th>
+<th style="text-align: center;">Variable</th>
+<th style="text-align: center;">Role</th>
+<th style="text-align: center;">Old Name</th>
+<th style="text-align: center;">Description</th>
+<th style="text-align: center;">Data set</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">Yes</td>
-<td style="text-align: right;">1837</td>
+<td style="text-align: center;"><strong>SEQN</strong></td>
+<td style="text-align: center;">Subject ID</td>
+<td style="text-align: center;"><code>SEQN</code></td>
+<td style="text-align: center;">Individual Identifier</td>
+<td style="text-align: center;">P_DEMO</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">No</td>
-<td style="text-align: right;">635</td>
+<td style="text-align: center;"><strong>AGE</strong></td>
+<td style="text-align: center;">Subject Age</td>
+<td style="text-align: center;"><code>RIDAGEYR</code></td>
+<td style="text-align: center;">Subject Age, Factored into 21-40, 40-65, and 65+</td>
+<td style="text-align: center;">P_DEMO</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">Total</td>
-<td style="text-align: right;">2472</td>
+<td style="text-align: center;"><strong>Diabetes</strong></td>
+<td style="text-align: center;">Diabetes</td>
+<td style="text-align: center;"><code>DIQ010</code></td>
+<td style="text-align: center;">Self-reported Diagnosis of Diabetes (Yes/No)</td>
+<td style="text-align: center;">P_DIQ</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><strong>Insurance</strong></td>
+<td style="text-align: center;">Insurance coverage</td>
+<td style="text-align: center;"><code>HIQ011</code></td>
+<td style="text-align: center;">Self-reported insurance coverage (yes/no)</td>
+<td style="text-align: center;">P_HIQ</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><strong>HCU</strong></td>
+<td style="text-align: center;">Healthcare Utilization</td>
+<td style="text-align: center;"><code>HUQ0511</code></td>
+<td style="text-align: center;">Low (0-1), moderate(2-5), or high (5+) healthcare visits in the past year</td>
+<td style="text-align: center;">P_HUQ</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><strong>BMI</strong></td>
+<td style="text-align: center;">Body-mass index</td>
+<td style="text-align: center;"><code>BMXBMI</code></td>
+<td style="text-align: center;">Measured subject BMI</td>
+<td style="text-align: center;">P_BMX</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><strong>BP</strong></td>
+<td style="text-align: center;">Blood pressure</td>
+<td style="text-align: center;"><code>BPXOSY1</code>, <code>BPXODI1</code></td>
+<td style="text-align: center;">systolic and diastolic subject blood pressure in mmHg</td>
+<td style="text-align: center;">P_BPXO</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><strong>GHB</strong></td>
+<td style="text-align: center;">Glycosylated Hemoglobin</td>
+<td style="text-align: center;"><code>LBXGH</code></td>
+<td style="text-align: center;">Measured glycosylated hemoglobin (%)</td>
+<td style="text-align: center;">P_GHB</td>
 </tr>
 </tbody>
 </table>
-</div>
-</div>
-<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
-    <template>Expand</template>
-    <span class="bslib-full-screen-enter badge rounded-pill">
-        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
-    </span>
-</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
-</div><div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, 1fr); grid-auto-columns: minmax(0, 1fr);">
-<div class="card cell html-fill-item html-fill-container bslib-card" data-title="Insurance Rates and Healthcare Utilization" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
-<div class="card-header"><div class="card-title html-fill-item html-fill-container">Insurance Rates and Healthcare Utilization</div></div>
-<div class="card-body html-fill-item html-fill-container">
-<div class="cell-output-display html-fill-item html-fill-container">
-<img src="dashboard_files/figure-html/unnamed-chunk-9-1.png" class="img-fluid quarto-dashboard-img-contain">
-</div>
-</div>
-<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
-    <template>Expand</template>
-    <span class="bslib-full-screen-enter badge rounded-pill">
-        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
-    </span>
-</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
-</div>
-</div>
-</div>
-</div><div id="uninsurance-and-diabetes-risk-factors" class="dashboard-page tab-pane grid-skip html-fill-item html-fill-container" data-orientation="columns" aria-labelledby="tab-uninsurance-and-diabetes-risk-factors">
-<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 60fr);
-grid-auto-rows: minmax(0, 1fr);">
-<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, 50fr) minmax(3em, 50fr); grid-auto-columns: minmax(0, 1fr);">
-<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 1fr) minmax(3em, 1fr);
-grid-auto-rows: minmax(0, 1fr);">
-<div class="card cell html-fill-item html-fill-container bslib-card" data-title="Glycosylated Hemoglobin" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
-<div class="card-header"><div class="card-title html-fill-item html-fill-container">Glycosylated Hemoglobin</div></div>
-<div class="card-body html-fill-item html-fill-container">
-<div class="cell-output-display html-fill-item html-fill-container">
-<img src="dashboard_files/figure-html/unnamed-chunk-10-1.png" class="img-fluid quarto-dashboard-img-contain">
-</div>
-</div>
-<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
-    <template>Expand</template>
-    <span class="bslib-full-screen-enter badge rounded-pill">
-        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
-    </span>
-</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div><div class="card cell html-fill-item html-fill-container bslib-card" data-title="Body Mass Index" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
-<div class="card-header"><div class="card-title html-fill-item html-fill-container">Body Mass Index</div></div>
-<div class="card-body html-fill-item html-fill-container">
-<div class="cell-output-display html-fill-item html-fill-container">
-<img src="dashboard_files/figure-html/unnamed-chunk-11-1.png" class="img-fluid quarto-dashboard-img-contain">
-</div>
-</div>
-<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
-    <template>Expand</template>
-    <span class="bslib-full-screen-enter badge rounded-pill">
-        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
-    </span>
-</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
-</div>
-<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 1fr) minmax(3em, 1fr);
-grid-auto-rows: minmax(0, 1fr);">
-<div class="card cell html-fill-item html-fill-container bslib-card" data-title="Systolic Blood Pressure" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
-<div class="card-header"><div class="card-title html-fill-item html-fill-container">Systolic Blood Pressure</div></div>
-<div class="card-body html-fill-item html-fill-container">
-<div class="cell-output-display html-fill-item html-fill-container">
-<img src="dashboard_files/figure-html/unnamed-chunk-12-1.png" class="img-fluid quarto-dashboard-img-contain">
-</div>
-</div>
-<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
-    <template>Expand</template>
-    <span class="bslib-full-screen-enter badge rounded-pill">
-        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
-    </span>
-</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div><div class="card cell html-fill-item html-fill-container bslib-card" data-title="Diastolic Blood Pressure" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
-<div class="card-header"><div class="card-title html-fill-item html-fill-container">Diastolic Blood Pressure</div></div>
-<div class="card-body html-fill-item html-fill-container">
-<div class="cell-output-display html-fill-item html-fill-container">
-<img src="dashboard_files/figure-html/unnamed-chunk-13-1.png" class="img-fluid quarto-dashboard-img-contain">
-</div>
-</div>
-<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
-    <template>Expand</template>
-    <span class="bslib-full-screen-enter badge rounded-pill">
-        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
-    </span>
-</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div><div id="3ade8a4a-fb1d-4a6c-8409-ac45482d5fc9" class="hidden html-fill-item html-fill-container">
-
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div></div><aside id="bslib-sidebar-1" class="sidebar html-fill-container html-fill-item"><div class="html-fill-container html-fill-item">
-<p>This dashboard displays national level statistics for the pre-pandemic period in the United States:</p>
-<table class="caption-top table">
-<tbody>
-<tr class="odd">
-<td><strong>Source</strong></td>
-<td>NHANES</td>
-</tr>
-<tr class="even">
-<td><strong>Begin</strong></td>
-<td>2017</td>
-</tr>
-<tr class="odd">
-<td><strong>End</strong></td>
-<td>March 2020</td>
-</tr>
-</tbody>
-</table>
-<hr>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Disclaimer
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>These data do not include sample weights from NHANES and thus are not truly representative of national estimates.</p>
-</div>
-</div>
-</div>
-</div></aside>
-<button class="collapse-toggle" type="button" title="Toggle sidebar" aria-expanded="true" aria-controls="bslib-sidebar-1">
-    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 16 16" class="bi bi-chevron-left collapse-icon" style="fill:currentColor;" aria-hidden="true" role="img">
-      <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"></path>
-    </svg>
-</button>
-<script data-bslib-sidebar-init="">
-bslib.Sidebar.initCollapsibleAll()
-</script>
-</div>
+</section>
+<section id="overall-plan" class="level2">
+<h2 class="anchored" data-anchor-id="overall-plan">Overall Plan</h2>
+<section id="calculating-initial-prevalences" class="level3">
+<h3 class="anchored" data-anchor-id="calculating-initial-prevalences">Calculating initial prevalences</h3>
+<p>After ingesting and cleaning the data, the first step was to calculate some basic prevalence numbers in the data set. These included the estimate for the prevalence of diabetes and the estimate for the uninsurance prevalence at the national level in adults of all ages. They both came out to around 15% in my data, but this number is inflated compared to the reported estimates by the CDC likely because I did not use the sample weights in my calculations.</p>
+</section>
+<section id="calculating-age-specific-prevalences" class="level3">
+<h3 class="anchored" data-anchor-id="calculating-age-specific-prevalences">Calculating age-specific prevalences</h3>
+<p>The next step was to determine the age-specific prevalence of both diabetes and uninsurance separately. I stratified age into three categories: 21-40, 40-64, and 65+. My data indicates that the prevalence of diabetes is much higher in older populations whereas the prevalence of uninsurance is much higher in younger populations. I conducted a Chisq test and found significant difference in proportionality with p &lt; 2e16 in both cases.</p>
+</section>
+<section id="utilization-of-helathcare-in-uninsured-vs.-insured-populations" class="level3">
+<h3 class="anchored" data-anchor-id="utilization-of-helathcare-in-uninsured-vs.-insured-populations">Utilization of helathcare in uninsured vs.&nbsp;insured populations</h3>
+<p>I next looked at the proportion of healthcare utilization in uninsured and insured populations. This is my key mediator and a lower utilization in uninsured populations would support my hypothesis. I conducted a Chisq test and found a significant difference in proportionality with p &lt; 2e16. I followed this with pairwise proportionality comparisons and found significant differences between proportionality of insurance low vs.&nbsp;high healthcare utilization (p&lt;2e16) and moderate vs.&nbsp;high healthcare utilization (p&lt;2e16) but not between moderate vs.&nbsp;high health care utilization (p=0.22). This indicates that a disproportionate amount of uninsured people have low utilization of healthcare indicating that insurance may be acting as a barrier to healthcare.</p>
+</section>
+<section id="insuance-and-diabetes-risk-markers" class="level3">
+<h3 class="anchored" data-anchor-id="insuance-and-diabetes-risk-markers">Insuance and Diabetes risk markers</h3>
+<p>Lastly, I looked at the difference in mean diabetes risk markers between insured and uninsured populations – specifically, BMI, systolic blood pressure, diastolic blood pressure, and glycosoylated hemoglobin. Several of these had right-skewed distributions and violated the assumption of normality. There was also a significant difference in sample size between the uninsured and insured populations. To get around these, I conducted a nonparametric Welch’s test and I sampled from the overall insured population to have a balanced sample size for statistical analysis. However, I found no difference in the means values for any of these biomarkers between insured and uninsured populations.</p>
+</section>
+</section>
+</section>
+<section id="conclusion" class="level1">
+<h1>Conclusion</h1>
+<p>Overall, I found that younger populations had significantly less diabetes and significantly higher rates of uninsurance than older populations. Uninsured populations were also experienced lower utilization of healthcare. However, no associations were found between lack of insurance and diabetic risk markers. This may because this is a cross-sectional study. A longitudinal study examining the impact of periods of uninsurance and barriers to health and later diagnosis of diabetes would be a stronger study design to examine this hypothesis.</p>
 
 
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -829,14 +705,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
 </footer>
 
-<script type="application/javascript">
-window.document.addEventListener("DOMContentLoaded", function (_event) {
-  if (window.bslib.Card) {
-    window.bslib.Card.initializeAllCards();
-  }
-}); 
-</script>
-  
 
 
 
