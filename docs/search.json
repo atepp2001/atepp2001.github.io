@@ -40,5 +40,12 @@
     "title": "Welcome to my website!",
     "section": "",
     "text": "Github\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Email\n  \n\n\n\n\nWelcome to my website!\nI am Alex Epp, a Neuroscience PhD student at Case Western Reserve University. I hold a Bachelor’s of Science degree in Biochemistry from Hillsdale College. During my undergraduate career, I conducted research in two areas: 1) under the tutelage of Dr. Kelli Kazmier of Hillsdale College, I studied inhibition models of the pro-apoptotic protein BAX, and 2) under the supervision of Dr. A.J. Baucum of Indiana University, I explored the role of scaffolding protein spinophilin in NMDAR-dependent apoptosis. Now, I am a 2nd year PhD student in the lab of Dr. Xiongwei Zhu in the Pathology Department at CWRU where we study mitochondria and RNA methylation in Alzheimer’s disease and other neurodegenerative diseases.\nMy first project in the lab has focused on the role of cGMP/PKG signaling to inhibit mitochondrial fission as a neuroprotective mechanism of PDE2 inhibition in the treatment of Alzheimer’s disease. Check out my Projects page for my latest abstract and poster presented at the Society for Neuroscience 2024. My main research project focuses on the role of RNA methylation (specifically N6-methyladenosine or m6A for short) and synaptic dysfunction in Alzheimer’s disease. Our lab has identified the main m6A methyltransferase, Mettl3, is decreased along with m6A RNA modifications in the neurons of Alzheimer’s patients. My project focuses in on how the loss of m6A on synaptic RNA transcripts may contribute to synaptic dysfunction in Alzheimer’s disease. I use a combination of ’omics analyses, mouse models, imaging techniques, and biochemistry to pursue my research. Stay tuned to this website for updated abstracts, presentations, and publications! Feel free to reach out via email with any inquiries."
+  },
+  {
+    "objectID": "ld-dashboard-main/LICENSE.html",
+    "href": "ld-dashboard-main/LICENSE.html",
+    "title": "Alex Epp",
+    "section": "",
+    "text": "This work is licensed under a Creative Commons Attribution 4.0 International License."
   }
 ]

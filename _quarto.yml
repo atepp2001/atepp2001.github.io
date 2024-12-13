@@ -2,7 +2,7 @@
 
 # website settings
 website:
-  title: "Alex Epp"                                # Your name
+  title: "Alex Epp"                               
   description: "Alex is a Neuroscience PhD Student at Case Wesetern Reserve University"   # A brief slogan (optional)
   image: img/Epp_Alex_headshot_2023.jpg
   
@@ -19,8 +19,6 @@ website:
         href: projects/index.qmd
       - text: "Dashboard"
         href: ld-dashboard-main/dashboard.qmd
-     # - text: "Blog"
-     #   href: blog/blog.qmd
       - text: "Experience"
         href: experience/index.qmd
       - text: "CV"
