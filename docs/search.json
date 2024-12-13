@@ -28,27 +28,6 @@
     "text": "Previous Education\n\n\n\n\n\n\n\n\n\n\nBachelor’s of Science in Biochemistry from Hillsdale College\nBegan August 2019, graduated  summa cum laude in May 2023"
   },
   {
-    "objectID": "cv/index.html",
-    "href": "cv/index.html",
-    "title": "Curriculum vitae",
-    "section": "",
-    "text": "Download current CV\n  \n\n\n  \n\n\nView the tutorial for this template (+ download link)"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome to my website!",
-    "section": "",
-    "text": "Github\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Email\n  \n\n\n\n\nWelcome to my website!\nI am Alex Epp, a Neuroscience PhD student at Case Western Reserve University. I hold a Bachelor’s of Science degree in Biochemistry from Hillsdale College. During my undergraduate career, I conducted research in two areas: 1) under the tutelage of Dr. Kelli Kazmier of Hillsdale College, I studied inhibition models of the pro-apoptotic protein BAX, and 2) under the supervision of Dr. A.J. Baucum of Indiana University, I explored the role of scaffolding protein spinophilin in NMDAR-dependent apoptosis. Now, I am a 2nd year PhD student in the lab of Dr. Xiongwei Zhu in the Pathology Department at CWRU where we study mitochondria and RNA methylation in Alzheimer’s disease and other neurodegenerative diseases.\nMy first project in the lab has focused on the role of cGMP/PKG signaling to inhibit mitochondrial fission as a neuroprotective mechanism of PDE2 inhibition in the treatment of Alzheimer’s disease. Check out my Projects page for my latest abstract and poster presented at the Society for Neuroscience 2024. My main research project focuses on the role of RNA methylation (specifically N6-methyladenosine or m6A for short) and synaptic dysfunction in Alzheimer’s disease. Our lab has identified the main m6A methyltransferase, Mettl3, is decreased along with m6A RNA modifications in the neurons of Alzheimer’s patients. My project focuses in on how the loss of m6A on synaptic RNA transcripts may contribute to synaptic dysfunction in Alzheimer’s disease. I use a combination of ’omics analyses, mouse models, imaging techniques, and biochemistry to pursue my research. Stay tuned to this website for updated abstracts, presentations, and publications! Feel free to reach out via email with any inquiries."
-  },
-  {
-    "objectID": "ld-dashboard-main/LICENSE.html",
-    "href": "ld-dashboard-main/LICENSE.html",
-    "title": "Alex Epp",
-    "section": "",
-    "text": "This work is licensed under a Creative Commons Attribution 4.0 International License."
-  },
-  {
     "objectID": "blog/blog.html",
     "href": "blog/blog.html",
     "title": "blog",
@@ -68,5 +47,26 @@
     "title": "blog",
     "section": "Overall Plan",
     "text": "Overall Plan\n\nCalculating initial prevalences\nAfter ingesting and cleaning the data, the first step was to calculate some basic prevalence numbers in the data set. These included the estimate for the prevalence of diabetes and the estimate for the uninsurance prevalence at the national level in adults of all ages. They both came out to around 15% in my data, but this number is inflated compared to the reported estimates by the CDC likely because I did not use the sample weights in my calculations.\n\n\nCalculating age-specific prevalences\nThe next step was to determine the age-specific prevalence of both diabetes and uninsurance separately. I stratified age into three categories: 21-40, 40-64, and 65+. My data indicates that the prevalence of diabetes is much higher in older populations whereas the prevalence of uninsurance is much higher in younger populations. I conducted a Chisq test and found significant difference in proportionality with p &lt; 2e16 in both cases.\n\n\nUtilization of helathcare in uninsured vs. insured populations\nI next looked at the proportion of healthcare utilization in uninsured and insured populations. This is my key mediator and a lower utilization in uninsured populations would support my hypothesis. I conducted a Chisq test and found a significant difference in proportionality with p &lt; 2e16. I followed this with pairwise proportionality comparisons and found significant differences between proportionality of insurance low vs. high healthcare utilization (p&lt;2e16) and moderate vs. high healthcare utilization (p&lt;2e16) but not between moderate vs. high health care utilization (p=0.22). This indicates that a disproportionate amount of uninsured people have low utilization of healthcare indicating that insurance may be acting as a barrier to healthcare.\n\n\nInsuance and Diabetes risk markers\nLastly, I looked at the difference in mean diabetes risk markers between insured and uninsured populations – specifically, BMI, systolic blood pressure, diastolic blood pressure, and glycosoylated hemoglobin. Several of these had right-skewed distributions and violated the assumption of normality. There was also a significant difference in sample size between the uninsured and insured populations. To get around these, I conducted a nonparametric Welch’s test and I sampled from the overall insured population to have a balanced sample size for statistical analysis. However, I found no difference in the means values for any of these biomarkers between insured and uninsured populations."
+  },
+  {
+    "objectID": "cv/index.html",
+    "href": "cv/index.html",
+    "title": "Curriculum vitae",
+    "section": "",
+    "text": "Download current CV\n  \n\n\n  \n\n\nView the tutorial for this template (+ download link)"
+  },
+  {
+    "objectID": "dashboard-main/LICENSE.html",
+    "href": "dashboard-main/LICENSE.html",
+    "title": "Alex Epp",
+    "section": "",
+    "text": "This work is licensed under a Creative Commons Attribution 4.0 International License."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to my website!",
+    "section": "",
+    "text": "Github\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Email\n  \n\n\n\n\nWelcome to my website!\nI am Alex Epp, a Neuroscience PhD student at Case Western Reserve University. I hold a Bachelor’s of Science degree in Biochemistry from Hillsdale College. During my undergraduate career, I conducted research in two areas: 1) under the tutelage of Dr. Kelli Kazmier of Hillsdale College, I studied inhibition models of the pro-apoptotic protein BAX, and 2) under the supervision of Dr. A.J. Baucum of Indiana University, I explored the role of scaffolding protein spinophilin in NMDAR-dependent apoptosis. Now, I am a 2nd year PhD student in the lab of Dr. Xiongwei Zhu in the Pathology Department at CWRU where we study mitochondria and RNA methylation in Alzheimer’s disease and other neurodegenerative diseases.\nMy first project in the lab has focused on the role of cGMP/PKG signaling to inhibit mitochondrial fission as a neuroprotective mechanism of PDE2 inhibition in the treatment of Alzheimer’s disease. Check out my Projects page for my latest abstract and poster presented at the Society for Neuroscience 2024. My main research project focuses on the role of RNA methylation (specifically N6-methyladenosine or m6A for short) and synaptic dysfunction in Alzheimer’s disease. Our lab has identified the main m6A methyltransferase, Mettl3, is decreased along with m6A RNA modifications in the neurons of Alzheimer’s patients. My project focuses in on how the loss of m6A on synaptic RNA transcripts may contribute to synaptic dysfunction in Alzheimer’s disease. I use a combination of ’omics analyses, mouse models, imaging techniques, and biochemistry to pursue my research. Stay tuned to this website for updated abstracts, presentations, and publications! Feel free to reach out via email with any inquiries."
   }
 ]
