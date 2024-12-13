@@ -18,7 +18,9 @@ website:
       - text: "Projects"
         href: projects/index.qmd
       - text: "Dashboard"
-        href: ld-dashboard-main/dashboard.qmd
+        href: dashboard-main/dashboard.qmd
+      - text: "Blog"
+        href: blog/blog.qmd
       - text: "Experience"
         href: experience/index.qmd
       - text: "CV"

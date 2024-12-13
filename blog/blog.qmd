@@ -1,0 +1,49 @@
+---
+title: "blog"
+---
+
+# Building the website
+
+I built this website by piggybacking off the given I templates and changing as little as possible so that I would not accidentally make a mistake. Specifically, I followed Marvin Schmitt's template to get the initial website up and running. Then, for the dashboard, I followed the hospital birth template. I like the colors they chose so I kept them as most of my comparisons were between two of the same groups. I did change to some complimentary but contrasting colors for the one other comparison. 
+
+# Central Hypothesis
+
+My central hypothesis in this study is that in young adults (aged 21-39) a lack of insurance impedes access to healthcare and increase the risk for early type 2 diabetes. To test this hypothesis, I am using data gathered from NHANES during the years of 2017-March 2020 (the pre-pandemic years). 
+
+## Data Codebook
+
+I ingested and cleaned the data into two different data sets for testing -- one including all adults, diabetics status, and insurance status, and another including just adults aged 21-39, insurance status, healthcare utilization, body mass index, blood pressure, and glycosylated hemoglobin. 
+
+Variable | Role | Old Name | Description | Data set
+:--------: | :----: | :--------: | :-----------: | :------:
+**SEQN** | Subject ID | `SEQN` | Individual Identifier | P_DEMO
+**AGE** | Subject Age | `RIDAGEYR` | Subject Age, Factored into 21-40, 40-65, and 65+ | P_DEMO
+**Diabetes** | Diabetes | `DIQ010` | Self-reported Diagnosis of Diabetes (Yes/No) | P_DIQ
+**Insurance** | Insurance coverage | `HIQ011` | Self-reported insurance coverage (yes/no) | P_HIQ
+**HCU** | Healthcare Utilization | `HUQ0511` | Low (0-1), moderate(2-5), or high (5+) healthcare visits in the past year | P_HUQ
+**BMI** | Body-mass index | `BMXBMI` | Measured subject BMI | P_BMX
+**BP** | Blood pressure | `BPXOSY1`, `BPXODI1` | systolic and diastolic subject blood pressure in mmHg | P_BPXO
+**GHB** | Glycosylated Hemoglobin | `LBXGH` | Measured glycosylated hemoglobin (%) | P_GHB
+
+## Overall Plan
+
+### Calculating initial prevalences
+After ingesting and cleaning the data, the first step was to calculate some basic prevalence numbers in the data set. These included the estimate for the prevalence of diabetes and the estimate for the uninsurance prevalence at the national level in adults of all ages. They both came out to around 15% in my data, but this number is inflated compared to the reported estimates by the CDC likely because I did not use the sample weights in my calculations. 
+
+### Calculating age-specific prevalences
+
+The next step was to determine the age-specific prevalence of both diabetes and uninsurance separately. I stratified age into three categories: 21-40, 40-64, and 65+. My data indicates that the prevalence of diabetes is much higher in older populations whereas the prevalence of uninsurance is much higher in younger populations. I conducted a Chisq test and found significant difference in proportionality with p < 2e16 in both cases. 
+
+### Utilization of helathcare in uninsured vs. insured populations
+
+I next looked at the proportion of healthcare utilization in uninsured and insured populations. This is my key mediator and a lower utilization in uninsured populations would support my hypothesis. I conducted a Chisq test and found a significant difference in proportionality with p < 2e16. I followed this with pairwise proportionality comparisons and found significant differences between proportionality of insurance low vs. high healthcare utilization (p<2e16) and moderate vs. high healthcare utilization (p<2e16) but not between moderate vs. high health care utilization (p=0.22). This indicates that a disproportionate amount of uninsured people have low utilization of healthcare indicating that insurance may be acting as a barrier to healthcare. 
+
+### Insuance and Diabetes risk markers
+
+Lastly, I looked at the difference in mean diabetes risk markers between insured and uninsured populations -- specifically, BMI, systolic blood pressure, diastolic blood pressure, and glycosoylated hemoglobin. Several of these had right-skewed distributions and violated the assumption of normality. There was also a significant difference in sample size between the uninsured and insured populations. To get around these, I conducted a nonparametric Welch's test and I sampled from the overall insured population to have a balanced sample size for statistical analysis. However, I found no difference in the means values for any of these biomarkers between insured and uninsured populations.  
+
+# Conclusion
+
+Overall, I found that younger populations had significantly less diabetes and significantly higher rates of uninsurance than older populations. Uninsured populations were also experienced lower utilization of healthcare. However, no associations were found between lack of insurance and diabetic risk markers. This may because this is a cross-sectional study. A longitudinal study examining the impact of periods of uninsurance and barriers to health and later diagnosis of diabetes would be a stronger study design to examine this hypothesis. 
+    
+    
